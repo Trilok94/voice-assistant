@@ -1,0 +1,461 @@
+{
+    "intents": [
+        {
+            "tag": "none",
+            "patterns": [
+                "none"
+            ],
+            "responses": [
+                "none"
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hello",
+                "hii",
+                "hey",
+                "wake up",
+                "dodo"
+            ],
+            "responses": [
+                "hello sir",
+                "how are you sir.",
+                "always for you sir",
+                "hello",
+                "here's your assistant."
+            ]
+        },
+        {
+            "tag": "health",
+            "patterns": [
+                "how are you",
+                "how you",
+                "are you fine ?",
+                "are you good"
+            ],
+            "responses": [
+                "fine",
+                "perfect",
+                "cool",
+                "awesome",
+                "all is well sir"
+            ]
+        },
+        {
+            "tag": "date",
+            "patterns": [
+                "what is the date",
+                "telling me today's date",
+                "today's date ?",
+                "show me date dodo",
+                "date"
+            ],
+            "responses": [
+                "date"
+            ]
+        },
+        {
+            "tag": "time",
+            "patterns": [
+                "show me the time",
+                "what is the time ",
+                "time dodo",
+                "tell me the time",
+                "current time",
+                "time"
+            ],
+            "responses": [
+                "time"
+            ]
+        },
+        {
+            "tag": "compliment",
+            "patterns": [
+                "you are too much good",
+                "doing great job",
+                "awesome dodo",
+                "You have a great sense of humor"
+            ],
+            "responses": [
+                "thank you sir",
+                "it's my pleasure to have you ",
+                "hope you liked my services"
+            ]
+        },
+        {
+            "tag": "reading",
+            "patterns": [
+                "hey dodo, read pdf for me",
+                "read book dodo",
+                "read book",
+                "read book pdf",
+                "read pdf",
+                "start reading"
+            ],
+            "responses": [
+                "reading"
+            ]
+        },
+        {
+            "tag": "remember",
+            "patterns": [
+                "remember that",
+                "dodo remember my data",
+                "remind me that",
+                "remember dodo that"
+            ],
+            "responses": [
+                "remember"
+            ]
+        },
+        {
+            "tag": "remembered data",
+            "patterns": [
+                "what did you remember",
+                "what did i tell you to remember dodo"
+            ],
+            "responses": [
+                "remembered data"
+            ]
+        },
+        {
+            "tag": "exit",
+            "patterns": [
+                "bye bye",
+                "see you later",
+                "go to sleep",
+                "goodbye",
+                "you need a break",
+                "you need rest",
+                "exit"
+            ],
+            "responses": [
+                "exit"
+            ]
+        },
+        {
+            "tag": "wikipedia",
+            "patterns": [
+                "tell me about",
+                "wikipedia",
+                "search in wikipedia",
+                "wikipedia about",
+                "show me wikipedia of"
+            ],
+            "responses": [
+                "wikipedia"
+            ]
+        },
+        {
+            "tag": "open",
+            "patterns": [
+                "open website",
+                "open app ",
+                "open application",
+                "launch",
+                "launch the app",
+                "open application and website"
+            ],
+            "responses": [
+                "open"
+            ]
+        },
+        {
+            "tag": "close",
+            "patterns": [
+                "close website",
+                "close app ",
+                "close application",
+                "close this application",
+                "close this website",
+                "close application and website"
+            ],
+            "responses": [
+                "close"
+            ]
+        }
+        ,
+        {
+            "tag": "send email",
+            "patterns": [
+                "send mail dodo",
+                "send email",
+                "mail to",
+                "email dodo"
+            ],
+            "responses": [
+                "send email"
+            ]
+        },
+        {
+            "tag": "speedtest",
+            "patterns": [
+                "check internet speed",
+                "what is my internet speed",
+                "speed of internet dodo",
+                "downloading speed",
+                "uploading speed",
+                "download speed",
+                "upload speed",
+                "internet speed"
+            ],
+            "responses": [
+                "speedtest"
+            ]
+        },
+        {
+            "tag": "temperature",
+            "patterns": [
+                "what is today's temperature",
+                "tell me the temperature",
+                "today's temperature",
+                "temperature"
+            ],
+            "responses": [
+                "temperature"
+            ]
+        },
+        {
+            "tag": "nasanews",
+            "patterns": [
+                "today's news",
+                "news of the day",
+                "what is today's news",
+                "tell me the news",
+                "current news",
+                "news"
+            ],
+            "responses": [
+                "nasanews"
+            ]
+        },
+        {
+            "tag": "google search",
+            "patterns": [
+                "search dodo",
+                "search this",
+                "dodo search for me",
+                "search"
+            ],
+            "responses": [
+                "searching"
+            ]
+        },
+        {
+            "tag": "playsong",
+            "patterns": [
+                "play song",
+                "play my song",
+                "play music",
+                "i want to listen music",
+                "make some noise dodo"
+            ],
+            "responses": [
+                "playsong"
+            ]
+        },
+        {
+            "tag": "switchthewindow",
+            "patterns": [
+                "swtich window",
+                "change the window",
+                "swap window",
+                "dodo window change",
+                "swtich screen",
+                "change the screen",
+                "swap screen",
+                "dodo screen change"
+            ],
+            "responses": [
+                "switchthewindow"
+            ]
+        },
+        {
+            "tag": "screenshot",
+            "patterns": [
+                "dodo screenshot",
+                "take screenshot",
+                "screenshot",
+                "click the screen",
+                "take picture of screen"
+            ],
+            "responses": [
+                "screenshot"
+            ]
+        },
+        {
+            "tag": "battery",
+            "patterns": [
+                "what is battery power",
+                "what is battery status",
+                "battery status",
+                "battery dodo",
+                "show me the battery status",
+                "tell me about battery"
+            ],
+            "responses": [
+                "battery"
+            ]
+        },
+        {
+            "tag": "googlesearch",
+            "patterns": [
+                "google search",
+                "search on google",
+                "search dodo",
+                "search about"
+            ],
+            "responses": [
+                "googlesearch"
+            ]
+        },
+        {
+            "tag": "ipaddress",
+            "patterns": [
+                "tell the ip address",
+                "what is my ip address",
+                "dodo ip address",
+                "ip address"
+            ],
+            "responses": [
+                "ipaddress"
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "tell joke",
+                "tell me a joke",
+                "dodo joke",
+                "joke for fun",
+                "joke",
+                "i want to hear joke"
+            ],
+            "responses": [
+                "joke"
+            ]
+        },
+        {
+            "tag": "shutdown system",
+            "patterns": [
+                "shutdown the system",
+                "shutdown",
+                "system shutdown",
+                "make the system shutdown"
+            ],
+            "responses": [
+                "shutdown system"
+            ]
+        },
+        {
+            "tag": "restart system",
+            "patterns": [
+                "restart the system",
+                "restart",
+                "system restart",
+                "make the system restart"
+            ],
+            "responses": [
+                "restart system"
+            ]
+        },
+        {
+            "tag": "sleep system",
+            "patterns": [
+                "sleep the system",
+                "sleep",
+                "system sleep",
+                "make the system sleep"
+            ],
+            "responses": [
+                "sleep system"
+            ]
+        },
+        {
+            "tag": "whatsapp",
+            "patterns": [
+                "dodo send whatsapp message to",
+                "send message to",
+                "whatsapp to",
+                "deliver whatsapp to"
+            ],
+            "responses": [
+                "whatsapp"
+            ]
+        },
+        {
+            "tag": "how to",
+            "patterns": [
+                "how to"
+            ],
+            "responses": [
+                "how to"
+            ]
+        },
+        {
+            "tag": "yttoolkit",
+            "patterns": [
+                "open youtube toolkit",
+                "open youtube utility",
+                "youtube toolkit",
+                "youtube command toolkit"
+            ],
+            "responses": [
+                "yttoolkit"
+            ]
+        },
+        {
+            "tag": "dict",
+            "patterns": [
+                "activate the dictionary",
+                "dictionary search",
+                "dictionary dodo",
+                "start dictionary dodo",
+                "open dictionary"
+            ],
+            "responses": [
+                "dict"
+            ]
+        },
+        {
+            "tag": "finspro",
+            "patterns": [
+                "find instagram profile",
+                "show me the instagram of ",
+                "search instagram of",
+                "search instagram profile of"
+            ],
+            "responses": [
+                "finspro"
+            ]
+        },
+        {
+            "tag": "translator",
+            "patterns": [
+                "activate the translator",
+                "translator me line",
+                "translate dodo",
+                "start translator dodo",
+                "translate hindi into english",
+                "open translator"
+            ],
+            "responses": [
+                "translator"
+            ]
+        },
+        {
+            "tag": "timetable",
+            "patterns": [
+                "tell me the timetable",
+                "timetable dodo",
+                "what is my timetable",
+                "show me the time table",
+                "what should i do in this time dodo"
+            ],
+            "responses": [
+                "timetable"
+            ]
+        }
+    ]
+}

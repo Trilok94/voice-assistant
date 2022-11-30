@@ -1,0 +1,1 @@
+# .insert(tkinter.INSERT,"HOW ARE YOU")
